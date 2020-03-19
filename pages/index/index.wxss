@@ -1,0 +1,95 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.cover-info{
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+.cover-name{
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 1px;
+}
+.cover-spell{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.photo {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.one{
+  background-color: rgba(0, 165, 34, 0.7);
+  width: 260px;
+  height: 260px;
+  border-radius:130px ;
+  position: absolute;
+  left: -150px;
+  top: 110px;
+}
+.belt{
+  position: absolute;
+  bottom: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+  width: 100%;
+  bottom: auto;
+}
+
+.belt-job{
+  display: block;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.belt-age{
+  display: block;
+  color: black;
+  font-size: 20px;
+}
+
+.two{
+  background-color: rgba(0, 165, 34, 0.7);
+  width: 200px;
+  height: 150px;
+  border-radius:130px ;
+  position: absolute;
+  right: -150px;
+  top: 110px;
+}
+
+.three{
+  background-color: rgba(0, 165, 34, 0.7);
+  width: 50px;
+  height: 50px;
+  border-radius:130px ;
+  position: absolute;
+  left: -10px;
+  bottom: 110px;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

@@ -1,0 +1,18 @@
+<swiper style="height:{{height}}px">
+	<swiper-item>
+		<view class="cover-info">
+			<text class="cover-name">{{name}}</text>
+			<text class="cover-spell">{{spell}}</text>
+		</view>
+
+		<image src="../../img/me.jpg" mode="widthFix" class="photo"></image>
+		
+		<view class="one"></view>
+		<view class="two"></view>
+		<view class="three"></view>
+		<view class="belt">
+			<text class="belt-job">{{job}}</text>
+			<text class="belt-age">{{age}}</text>
+		</view>
+	</swiper-item>
+</swiper>
